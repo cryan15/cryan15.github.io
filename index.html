@@ -2,12 +2,15 @@
 <html>
 <head>
     <title>Connor's 2018 Photos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Photos: 2018</h1>
-    <p><a href="about.html">About Me</a></p>
+    <!-- Note the "first below uniquely identifies one element vs. another. Use one word no spaces" -->
+    <!-- Really no reason to use "ID" instead of "class" -->
+    <p id="first"><a href="about.html">About Me</a></p>
     <hr>
-    <table>
+    <table class="date_table">
             <tr>
             <th>Activity</th>
             <th>Date</th>
@@ -26,18 +29,18 @@
             </tr>
         </table>
     <hr>
-    <ul>
-        <h2><li>Wedding</li></h2>
+    <ul class= "photo_titles">
+        <h2><li>Wedding</li><em class= "instructions">click picture to view wedding photos</em></h2>
         </ul>
         <a href="https://www.toastweddingfilms.com/ellie-connor"><img src="download(1).png"></a>
-    <hr>
-        <ul>
-        <h2><li>Honeymoon</h2><em>click picture to view honeymoon registry</em></li>
+    <hr>  
+    <ul class= "photo_titles">
+        <h2><li>Honeymoon</li><em class= "instructions">click picture to view honeymoon registry</em></h2>
         </ul>
         <a href="https://www.zola.com/registry/ellieandconnorryan/edit"><img src="download(5).png"></a>
     <hr>
-        <ul>
-        <h2><li>Ski Trip</li></h2>
+    <ul class= "photo_titles">
+        <h2><li>Ski Trip</li><em class= "instructions">click picture to view ski trip photos</em></h2>
         </ul>
         <a href="https://www.dropbox.com/sh/4gqm9pei8g5jd5a/AACU2ZBxb2NsfT85GUxD-78Ya?dl=0"><img src="download(4).png">
     <hr>
