@@ -1,5 +1,19 @@
-.jumbotron {
+.nav-link{
+    color: #49cac5;
+}
+
+.jumbotron1 {
     background-image: url(jumbotron_photo_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    color: aliceblue;
+    padding-top: 200px;
+}
+
+.jumbotron2 {
+    background-image: url(jumbotron_photo_3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,3 +25,24 @@
 a.navbar-brand img{
     width: 100px;
 }
+
+.head{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.trainer-photo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+      }
+
+.centertext{
+    text-align: center;
+    color: #49cac5;
+      }
+
