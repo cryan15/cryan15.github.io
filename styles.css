@@ -1,44 +1,13 @@
-/* This is how you write comment - you type Ctrl + / */
-/* semicolon at the end of quality is critical */
-h1{
-  color:red;  
-  font-size: 40px;  
+.jumbotron {
+    background-image: url(jumbotron_photo_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    color: aliceblue;
+    padding-top: 200px;
 }
 
-/* CSS specificity - more specific element takes priority. Also recency - the lower rule always wins  */
-p{  
-    color: purple;
+a.navbar-brand img{
+    width: 100px;
 }
-
-/* Selectors apply to all element unles specified otherwise */
-/* "# and the the element unique ID is how you select only one" */
-#first{
-    color: green;
-}
-
-/* Using class element type.class to format something */
-ul.photo_titles{
-    color:green;
-}
-
-table.date_table{
-    text-align: left;
-}
-
-/* Resizing images */
-img{
-    width: 400px;
-}
-
-/* Making instructions smaller */
-.instructions{
-    font-size: 12px;
-}
-
-.date_table{
-    border-style: double;
-}
-
-body{
-    background-image: url(Kellogg_School_of_Management.svg.png);       
-}  
