@@ -46,3 +46,12 @@ a.navbar-brand img{
     color: #49cac5;
       }
 
+.lefttext{
+text-align: left;
+color: #49cac5;
+    }
+
+.connorphoto img{
+    width: 300px;
+}
+
