@@ -2,6 +2,10 @@
     color: #49cac5;
 }
 
+.nav-item{
+    color: #49cac5;
+}
+
 .jumbotron1 {
     background-image: url(jumbotron_photo_1.jpg);
     background-repeat: no-repeat;
@@ -52,6 +56,15 @@ color: #49cac5;
     }
 
 .connorphoto img{
-    width: 300px;
+    width: 100%;
+    vertical-align: left;
 }
 
+.navbar-expand-lg {
+    color: #49cac5;
+}
+
+.navbar-light{
+    color: #49cac5;
+}
+    
